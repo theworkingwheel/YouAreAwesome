@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var messageString = "you are great!"
+    @State private var messageString = "You Are Great!"
     
     var body: some View {
         VStack {
@@ -16,13 +16,13 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                 .imageScale(.large)
-                .foregroundColor(.black)
-                .padding(30.0)
+                .foregroundColor(Color(hue: 0.09, saturation: 0.915, brightness: 0.913))
+                .padding(67)
           
             Text(messageString)
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .foregroundColor(Color.orange)
+                .foregroundColor(Color.purple)
                 .italic()
                 .padding()
             
